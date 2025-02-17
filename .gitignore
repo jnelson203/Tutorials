@@ -1,21 +1,21 @@
 # Python
 *.pyc
 *~
-__pycache__
+__pycache__/
 
-# Env
-.env
-myvenv/
+# Virtual environment
 venv/
+myvenv/
+.env
 
 # Database
 db.sqlite3
 
-# Static folder at project root
+# Static files
 /static/
+
+# macOS
+.DS_Store
 
 # Windows
 Thumbs.db*
-ehthumbs*.db
-[Dd]esktop.ini
-$RECYCLE.BIN/
