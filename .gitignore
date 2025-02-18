@@ -3,15 +3,15 @@
 *~
 __pycache__/
 
-# Virtual environment
-venv/
-myvenv/
+# Env
 .env
+myvenv/
+venv/
 
 # Database
 db.sqlite3
 
-# Static files
+# Static folder at project root
 /static/
 
 # macOS
