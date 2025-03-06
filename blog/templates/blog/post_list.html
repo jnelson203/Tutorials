@@ -19,5 +19,16 @@
             <h2><a href="">My second post</a></h2>
             <p>Another post example with Django templates.</p>
         </article>
+    {% if posts %}
+        {% for post in posts %}
+            <div class="post">
+                <h2>{{ post.title }}</h2>
+                <p class="date">Published on: {{ post.published_date }}</p>
+                <p>{{ post.text }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No blog posts available.</p>
+    {% endif %}
     </body>
 </html>
