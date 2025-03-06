@@ -1,0 +1,95 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Light grey background */
+    padding-left: 15px;  /* Adding some left padding to create space */
+}
+
+/* Header Section Styles */
+.page-header {
+    background-color: #C25100;  /* Dark orange header */
+    padding: 20px 20px 20px 40px;  /* Adding padding to the header */
+    margin-bottom: 40px;  /* Space below the header */
+}
+
+.page-header h1 a {
+    color: #ffffff;  /* White color for the header link */
+    font-size: 36pt;
+    text-decoration: none;  /* Remove underline from the link */
+}
+
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;  /* Make sure the visited and active links stay white */
+}
+
+/* Post Styles */
+.post {
+    background-color: #ffffff;  /* White background for each post */
+    padding: 20px;
+    border-radius: 8px;  /* Rounded corners for posts */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+    margin-bottom: 40px;  /* Space between posts */
+}
+
+.post h2 a {
+    color: #000000;  /* Black color for post titles */
+    text-decoration: none;  /* Remove underline from post titles */
+}
+
+.post h2 a:hover {
+    color: #C25100;  /* Change title color on hover */
+}
+
+.date {
+    color: #828282;  /* Light grey color for the publication date */
+    font-style: italic;  /* Italicize the date */
+    font-size: 14px;  /* Smaller font size for the date */
+    margin-bottom: 10px;  /* Space between date and post content */
+}
+
+/* Link Styles */
+a {
+    color: #C25100;  /* Orange color for all links */
+    text-decoration: none;  /* Remove underline from links */
+}
+
+a:hover {
+    color: #000000;  /* Change color to black on hover */
+}
+
+/* Adding some spacing and changing fonts for headings */
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;  /* Custom font for headers */
+}
+
+/* Responsive Layout for Smaller Screens */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 28pt;
+    }
+
+    .post {
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Styling the Buttons (if any) */
+.btn-secondary {
+    color: #C25100;  /* Orange color */
+    background: none;
+    border: 2px solid #C25100;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-secondary:hover {
+    background-color: #C25100;  /* Darker orange background on hover */
+    color: white;  /* White text on hover */
+}
+
+/* Adding some bottom margin to the main content */
+main.container {
+    margin-bottom: 40px;
+}
